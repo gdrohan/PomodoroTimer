@@ -1,0 +1,22 @@
+.timer {
+	float: left;
+	margin: 32px;
+}
+
+.todo {
+	float: right;
+	margin: 32px;
+}
+
+@media (max-width: 600px) {
+	.timer {
+		width:100%;
+		margin-bottom:64px;
+	}
+	/* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+	.todo {
+		float:none;
+		width:100%;
+	}
+}
+

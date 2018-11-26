@@ -1,0 +1,41 @@
+label {
+	margin-right: 8px;
+}
+
+input {
+	margin-bottom: 8px;
+	padding-left: 8px;
+	width: 60%;	
+}
+
+table, tbody {
+	border: 1px inset lightgray;
+	max-width: 600px;
+}
+
+th {
+	background-color: #000;
+	color: #fff;
+}
+th:first-child {
+	width: 100px;
+	text-align:center;
+	border-right: 2px groove #fff;
+}
+th:last-child {
+	width:500px;
+	text-align:center;
+}
+
+td {
+	background-color: lightgray;
+}
+
+	td:first-child {
+		text-align: center;
+		border-right: 2px groove #fff;
+	}
+
+td:last-child {
+	padding-left: 8px;
+}
